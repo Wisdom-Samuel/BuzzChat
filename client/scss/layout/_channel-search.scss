@@ -1,0 +1,25 @@
+
+
+.channel-search__container {
+    width: 100%;
+
+    .channel-search__input__wrapper {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        background: white;
+        margin: 0.49rem auto;
+        border-radius: 4px;
+        color: black;
+        padding: 0.2rem;
+        input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            padding-inline-start: 0.3rem;
+            &:focus, select:focus, textarea:focus {
+                outline: none;
+            }
+        }
+    }
+}

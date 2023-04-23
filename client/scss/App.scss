@@ -1,0 +1,45 @@
+@use './layout/channel-search';
+@use './layout/auth';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__wrapper {
+    display: flex;
+
+    .channel__list__container {
+        height: 100vh;
+        width: 24.9vw;
+        background: #171717;
+        color: #ffffff;
+        padding: 0.49rem 1rem;
+    }
+    .channel-list__sidebar {
+        width: 3rem;
+        height: 100vh;
+        position: relative;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.185);
+
+        .channel-list__sidebar__icon1 {
+            width: 3rem;
+            height: 100%;
+            background: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0.4rem;
+        }
+    }
+    .channel__container {
+        background: #ffffff;
+        color: rgb(0, 0, 0);
+        height: 100vh;
+        width: 76.1vw;
+        padding: 3rem;
+    }
+}
